@@ -1,0 +1,62 @@
+/* reset */
+img{
+    max-width: 100%;
+}
+
+body{
+    margin: 0;
+}
+
+main{
+    margin: 5px;
+}
+
+figure{
+    margin: 0;
+}
+
+/* heading */
+
+.heading{
+    background-image: url('../img/pattern.png');
+    background-color: #4ea0fc;
+    background-size: contain;
+    height: 80px;
+}
+
+.logo{
+    width: 12%;
+    height: 12%;
+}
+
+
+/* main */
+
+h1{
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    margin-bottom: 0;
+}
+
+h3{
+    color: #838084;
+    margin-bottom: 0;
+}
+
+/* descrizione autore di realizzazione sito */
+.author-description{
+    margin-top: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #62b5d7;
+}
+
+/* descrizione data di realizzazione sito */
+h4{
+    color: #838084;    
+    margin-top: 0;
+}

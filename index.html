@@ -3,13 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Federico Zorzi">
+    <meta name="description" content="Questa pagina contiene un articolo">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Document</title>
+    <title>Article</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <header>
-        <figure>
-            <img src="./img/logo.svg" alt="">
+
+    <header class="heading">
+        <figure class="logo">
+            <img src="./img/logo.svg" alt="logo">
         </figure>
     </header>
 
@@ -17,14 +25,18 @@
         <!-- titolo principale della pagina -->
         <h1>Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee</h1>
 
-        <h3>Scritto da The Booleaner <br/>
-        il 10/10/2020</h3>
+        <h3 class="author-description">Scritto da <a href="#">The Booleaner</a></h3>
+        <h4>il 10/10/2020</h4>
         
         <section> 
-            <img src="./img/tim-1.jpg" alt="">
-            <img src="./img/tim-2.jpg" alt="">
-            <p>1st Photo: John S. and James L. Knight Foundation, by Scott Henrichsen</p>
-            <p>2nd Photo: Wikimedia, by Paul Clarke</p>
+            <figure>
+                <img src="./img/tim-1.jpg" alt="">
+                <img src="./img/tim-2.jpg" alt="">
+            </figure>
+
+            <p class="images-description">1st Photo: John S. and James L. Knight Foundation, by Scott Henrichsen</p>
+            <p class="images-description">2nd Photo: Wikimedia, by Paul Clarke</p>
+
         </section>
 
         <section>
@@ -85,9 +97,11 @@
     
         <section>
 
-            <h2>Potrebbero interessarti</h2>
+            <h3>Potrebbero interessarti</h3>
+
             <div>Lorem ipsum dolor</div>
             <div>Lorem ipsum dolor</div>
+
         </section>
     </main>
     
