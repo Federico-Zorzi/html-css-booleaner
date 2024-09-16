@@ -15,7 +15,7 @@
 </head>
 <body>
 
-    <header class="heading">
+    <header>
         <figure class="logo">
             <img src="./img/logo.svg" alt="logo">
         </figure>
@@ -28,59 +28,55 @@
         <h3 class="author-description">Scritto da <a href="#">The Booleaner</a></h3>
         <h4>il 10/10/2020</h4>
         
-        <section> 
-            <figure>
-                <img src="./img/tim-1.jpg" alt="">
-                <img src="./img/tim-2.jpg" alt="">
-            </figure>
+        <figure>
+            <img src="./img/tim-1.jpg" alt="">
+            <img src="./img/tim-2.jpg" alt="">
+        </figure>
 
-            <p class="images-description">1st Photo: John S. and James L. Knight Foundation, by Scott Henrichsen</p>
-            <p class="images-description">2nd Photo: Wikimedia, by Paul Clarke</p>
+        <p class="images-description">1st Photo: John S. and James L. Knight Foundation, by Scott Henrichsen</p>
+        <p class="images-description">2nd Photo: Wikimedia, by Paul Clarke</p>
 
-        </section>
-
-        <section>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error eaque nostrum quae eius atque hic natus. Ea facilis exercitationem reiciendis voluptatem perspiciatis, deserunt quos error. Consequuntur nam dolorum nesciunt corrupti.
-            Esse ex vero amet voluptates corporis consequatur quae doloribus velit culpa atque nam asperiores possimus impedit quasi aspernatur, a dolorum earum cumque nostrum exercitationem ipsum. Inventore consectetur sit eum excepturi!</p>
-        </section>
-
+        <!-- primo paragrafo -->
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error eaque nostrum quae eius atque hic natus. <span>Ea facilis exercitationem reiciendis voluptatem perspiciatis, deserunt quos error. Consequuntur nam dolorum nesciunt corrupti.</span>
+        Esse ex vero amet voluptates corporis consequatur quae doloribus velit culpa atque nam asperiores possimus impedit quasi aspernatur, a dolorum earum cumque nostrum exercitationem ipsum. Inventore consectetur sit eum excepturi!</p>
+        
         <!-- sezione per la lista -->
-        <section>
-            <ul>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi iusto dolor omnis debitis soluta unde quis veritatis odio pariatur ullam commodi, et ab vel voluptate ad vitae provident molestiae iure.</li>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi iusto dolor omnis debitis soluta unde quis veritatis odio pariatur ullam commodi, et ab vel voluptate ad vitae provident molestiae iure.</li>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi iusto dolor omnis debitis soluta unde quis veritatis odio pariatur ullam commodi, et ab vel voluptate ad vitae provident molestiae iure.</li>
-            </ul>
-        </section>
-    
+        <ul>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi iusto dolor omnis debitis soluta unde quis veritatis odio pariatur ullam commodi, et ab vel voluptate ad vitae provident molestiae iure.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi iusto dolor omnis debitis soluta unde quis veritatis odio pariatur ullam commodi, et ab vel voluptate ad vitae provident molestiae iure.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi iusto dolor omnis debitis soluta unde quis veritatis odio pariatur ullam commodi, et ab vel voluptate ad vitae provident molestiae iure.</li>
+        </ul>
+            
         <!-- sezione per la creazione della tabella -->
         <section>
             <table>
 
                 <!-- nome colonne -->
                 <thead>
-                    <th>Lorem ipsum dolor</th>
-                    <th>Lorem ipsum dolor</th>
-                    <th>Lorem ipsum dolor</th>
+                    <tr>
+                        <th>Lorem ipsum dolor</th>
+                        <th>Lorem ipsum dolor</th>
+                        <th>Lorem ipsum dolor</th>
+                    </tr>
                 </thead>
 
                 <tbody>
                     <!-- prima riga -->
-                    <tr>
+                    <tr class="light-blue-row">
                         <td>Lorem ipsum, dolor</td>
                         <td>Lorem ipsum, dolor</td>
                         <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex autem exercitationem, commodi necessitatibus sapiente doloremque consequuntur tempora corrupti est eaque voluptatem rerum quaerat laborum unde dolorum aliquam mollitia, ducimus nesciunt?</td>
                     </tr>
                     
                     <!-- seconda riga -->
-                    <tr>
-                        <td>Lorem ipsum, dolor</td>
+                    <tr class="white-row">
+                        <td class="">Lorem ipsum, dolor</td>
                         <td>Lorem ipsum, dolor</td>
                         <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex autem exercitationem, commodi necessitatibus sapiente doloremque consequuntur tempora corrupti est eaque voluptatem rerum quaerat laborum unde dolorum aliquam mollitia, ducimus nesciunt?</td>
                     </tr>
 
                     <!-- terza riga -->
-                    <tr>
+                    <tr class="light-blue-row">
                         <td>Lorem ipsum, dolor</td>
                         <td>Lorem ipsum, dolor</td>
                         <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex autem exercitationem, commodi necessitatibus sapiente doloremque consequuntur tempora corrupti est eaque voluptatem rerum quaerat laborum unde dolorum aliquam mollitia, ducimus nesciunt?</td>
@@ -91,18 +87,24 @@
         </section>
 
         <section>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error eaque nostrum quae eius atque hic natus. Ea facilis exercitationem reiciendis voluptatem perspiciatis, deserunt quos error. Consequuntur nam dolorum nesciunt corrupti.
-            Esse ex vero amet voluptates corporis consequatur quae doloribus velit culpa atque nam asperiores possimus impedit quasi aspernatur, a dolorum earum cumque nostrum exercitationem ipsum. Inventore consectetur sit eum excepturi!</p>
+            <!-- secondo paragrafo -->
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error eaque nostrum quae eius atque hic natus. Ea facilis exercitationem reiciendis voluptatem perspiciatis, deserunt quos error. <span>Consequuntur nam dolorum nesciunt corrupti.</span>
+            Esse ex vero amet voluptates corporis consequatur quae doloribus velit culpa atque nam asperiores possimus impedit quasi aspernatur, a dolorum earum cumque nostrum exercitationem ipsum. Inventore consectetur sit eum excepturi!
+            </p>
         </section>
     
         <section>
-
+            <!-- titolo "cose che potrebbero interessarmi" -->
             <h3>Potrebbero interessarti</h3>
 
-            <div>Lorem ipsum dolor</div>
-            <div>Lorem ipsum dolor</div>
+            <!-- prima immagine con scritta -->
+            <p class="monitor">Lorem ipsum dolor</p>
+
+            <!-- seconda immagine con scritta -->
+            <p class="graph">Lorem ipsum dolor</p>
 
         </section>
+
     </main>
     
     
