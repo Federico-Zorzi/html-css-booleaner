@@ -21,19 +21,19 @@ header{
     background-image: url('../img/pattern.png');
     background-color: #4ea0fc;
     background-size: contain;
-    height: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .logo{
     position: relative;
     width: 150px;
-    height: 80px;   
+    height: 60px;   
 }
 
 .logo img{
     position: absolute;
     bottom: 0;
-    margin-bottom: 5px;
     margin-left: 5px;
 }
 /* main */
@@ -70,7 +70,7 @@ h4{
 /* descrizione foto */
 .images-description{ 
     margin: 0;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 /* evidenziamento delle frasi*/
@@ -86,7 +86,11 @@ ul{
 thead{
     background-color: #22a9e3;
     color: white;
-    
+}
+
+/* dimensione colonne della tabella */
+th{
+    width: 33%;
 }
 
 .light-blue-row{
