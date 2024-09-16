@@ -89,8 +89,8 @@ thead{
 }
 
 /* dimensione colonne della tabella */
-th{
-    width: 33%;
+.first-second-column{
+    width: 50%;
 }
 
 .light-blue-row{
