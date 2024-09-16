@@ -83,6 +83,10 @@ ul{
     padding-left: 18px;
 }
 
+table{
+    border-spacing: 0px;
+}
+
 thead{
     background-color: #22a9e3;
     color: white;
