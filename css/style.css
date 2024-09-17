@@ -1,4 +1,5 @@
 /* reset */
+
 img{
     max-width: 100%;
 }
@@ -73,28 +74,19 @@ h4{
     font-size: 13px;
 }
 
-/* evidenziamento delle frasi*/
-span{
-    background-color: yellow;
-}
-
 /* allineamento lista al bordo sinistro */
 ul{
-    padding-left: 18px;
+    padding: 0;
+    list-style-position: inside;
 }
 
 table{
-    border-spacing: 0px;
+    border-collapse: collapse;
 }
 
 thead{
     background-color: #22a9e3;
     color: white;
-}
-
-/* dimensione colonne della tabella */
-th{
-    width: 33%;
 }
 
 .light-blue-row{
@@ -105,26 +97,23 @@ th{
     background-color: white;
 }
 
-.monitor{
-    background-image: url(../img/monitor.jpg);
-    background-size: auto;
+.aside-article{
+    background-size: contain;
+    background-repeat: no-repeat;
     margin-top: 10px;
     height: 150px;
     width: 240px;
+    max-width: 100%;
     color: white;
-    font-size: 25px;
+    font-size: 1.5rem;
     font-weight: bold;
     padding: 20px;
 }
 
-.graph{
+#screen{
+    background-image: url(../img/monitor.jpg);
+}
+
+#graph{
     background-image: url(../img/graph.jpg);
-    background-size: auto;
-    margin-top: 10px;
-    height: 150px;
-    width: 240px;
-    color: white;
-    font-size: 25px;
-    font-weight: bold;
-    padding: 20px;
 }
